@@ -4,7 +4,7 @@ import Loader from '../Loader';
 import CountUp from "react-countup"
 export default function WeatherCard({ cityData, name }) {
     const date = new Date();
-    const month = new Array();
+    const month = [];
     month[0] = "January";
     month[1] = "February";
     month[2] = "March";
